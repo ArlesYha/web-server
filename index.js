@@ -55,13 +55,13 @@ const bootstrap = async () => {
 bootstrap();
 
 // const httpServer = createServer((req, resp) => {
-//     //Verbo o método para indicar que quiere hacer el cliente
-//     // console.log(req.method);
-//     //Path o ruta para identificar el recurso
-//     // console.log(req.url);
-//     //Cabeceras
-//     // console.log(req.headers);
-//     //body/payload
+    //Verbo o método para indicar que quiere hacer el cliente
+    // console.log(req.method);
+    //Path o ruta para identificar el recurso
+    // console.log(req.url);
+    //Cabeceras
+    // console.log(req.headers);
+    //body/payload
 //     let data = '';
 //     let chunkIndex = 0;
 //     req.on('data', (chunk) => {
@@ -71,7 +71,7 @@ bootstrap();
 //     });
 
 //     req.on('end', () => {
-//         // console.log(data)
+        // console.log(data)
 //         resp.end('RECIBIDO COLEGA');
 //     });
 
